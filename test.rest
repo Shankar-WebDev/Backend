@@ -1,0 +1,30 @@
+### TEST GET / WEBSITE
+
+GET http://localhost:8989/
+
+
+### TEST GET/dashBoard WEBSITE
+
+GET http://localhost:8989/dashBoard
+
+
+### DATA ENDPONT
+
+GET http://localhost:8989/api/data
+
+
+### DATA ENDPONT FOR ADDING A USER 
+
+POST http://localhost:8989/api/data
+Content-Type: application/json
+
+{
+    "name": "tom"
+   
+}
+
+
+
+### DELETE END POINT
+
+DELETE http://localhost:8989/api/data/
